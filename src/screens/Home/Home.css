@@ -1,0 +1,291 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.topArea-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 86px;
+  rotate: -0.6deg;
+  line-height: 1.1;
+}
+.title {
+  color: var(--hg-color);
+  font-size: 4.42rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -2px;
+  line-height: 1;
+}
+.subTitle {
+  color: white;
+  font-size: 3.8rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
+.boxImage {
+  position: relative;
+  animation: float 6s ease-in-out infinite;
+  top: -6px;
+  width: 280px;
+}
+.infoTitle {
+  color: var(--hg-color);
+  font-size: 2.8rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
+.infosubTitle {
+  color: white;
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  letter-spacing: -1px;
+  word-spacing: 6px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+.infoArea-text {
+  display: flex;
+  width: 1200px;
+  gap: 2px;
+  line-height: 1.3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.buyButton {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: var(--hg-color);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.buyButton:hover {
+  background-color: transparent;
+  border-color: var(--hg-color);
+  transition: 0.3s;
+  color: var(--hg-color);
+}
+.huh-text {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: 1px;
+}
+.huh-subText {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
+.hahah-text {
+  color: var(--hg-color);
+  font-size: 4.8rem;
+  font-weight: bolder;
+  line-height: 1;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+  rotate: -0.7deg;
+}
+.publicArea-container {
+  display: flex;
+  align-items: center;
+  margin-top: 328px;
+  flex-direction: row;
+  gap: 128px;
+  z-index: 0;
+}
+.publicArea-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.boxImage2 {
+  width: 340px;
+  animation: float 3s ease-in-out infinite;
+  background-color: rgba(24, 129, 190, 0);
+  filter: drop-shadow(0px 80px 50px #000);
+}
+.seeWorking-container {
+  display: flex;
+  align-items: center;
+  margin-top: 328px;
+  flex-direction: column;
+  gap: 128px;
+  z-index: 1;
+}
+.seeWorking-title {
+  color: var(--hg-color);
+  font-size: 4.8rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
+.seeWorking-video {
+  border: 3px solid var(--hg-color);
+}
+.seeWorking-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 80px;
+  background-color: var(--hg-color);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: 1px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+.seeWorking-button:hover {
+  background-color: transparent;
+  border-color: var(--hg-color);
+  transition: 0.3s;
+  color: var(--hg-color);
+}
+.bg-elements {
+  position: absolute;
+  bottom: 200px;
+  right: 100px;
+  z-index: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.bg-elements2 {
+  position: absolute;
+  top: 1000px;
+  right: 100px;
+  z-index: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.bg-elements3 {
+  position: absolute;
+  top: 1800px;
+  right: 450px;
+  z-index: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.infoAboutTitle {
+  color: #172418;
+  font-size: 7rem;
+  rotate: -1deg;
+  line-height: 0.98;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
+.infoAboutSubtitle {
+  color: var(--hg-color);
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  word-spacing: 6px;
+  text-align: center;
+}
+.infoAbout-container {
+  background-color: #f2f1ec;
+  margin-top: 240px;
+  width: 99.84%;
+  height: 900px;
+  display: flex;
+  gap: 48px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.infoAbout-top {
+  margin-top: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.infoAbout-p {
+  color: #172418;
+  font-size: 1.7rem;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  line-height: 1.1;
+  text-align: center;
+}
+.boxAbout {
+  position: relative;
+  top: 36px;
+  width: 380px;
+  background-color: rgba(24, 129, 190, 0);
+}
+.whatContains-container {
+  width: 99.84%;
+  background-color: #0b1810;
+  z-index: 1;
+  height: 800px;
+}
+.whatContains-title {
+  color: var(--hg-color);
+  font-size: 7rem;
+  rotate: -2deg;
+  line-height: 0.98;
+  margin-top: 180px;
+  margin-left: 72px;
+  margin-right: 72px;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
+.whatContains-subTitle {
+  color: white;
+  font-size: 7rem;
+  rotate: -1.8deg;
+  margin-top: 18px;
+  margin-left: 72px;
+  margin-right: 72px;
+  line-height: 0.98;
+  font-weight: bolder;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: -1px;
+}
