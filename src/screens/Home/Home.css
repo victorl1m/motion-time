@@ -262,10 +262,14 @@
   background-color: #0b1810;
   z-index: 1;
   height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .whatContains-title {
   color: var(--hg-color);
-  font-size: 7rem;
+  font-size: 5rem;
   rotate: -2deg;
   line-height: 0.98;
   margin-top: 180px;
@@ -278,7 +282,7 @@
 }
 .whatContains-subTitle {
   color: white;
-  font-size: 7rem;
+  font-size: 5rem;
   rotate: -1.8deg;
   margin-top: 18px;
   margin-left: 72px;
@@ -288,4 +292,53 @@
   font-family: var(--primary-font);
   font-weight: var(--black-weight);
   letter-spacing: -1px;
+}
+.topic-list-area {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 600px;
+  padding: 12px;
+  margin: 48px;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.topic-list-area:hover {
+  border: 2px solid var(--hg-color);
+  transition: 0.3s;
+  background-color: transparent;
+}
+.topic-area {
+  display: flex;
+  flex-direction: column;
+}
+.topic-title {
+  color: var(--hg-color);
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: 0.8px;
+  margin-left: 24px;
+}
+.topic-indicator {
+  position: relative;
+  color: var(--hg-color);
+  font-size: 6rem;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+}
+.topic-subTitle {
+  color: white;
+  font-size: 1rem;
+  font-family: var(--primary-font);
+  font-weight: var(--black-weight);
+  letter-spacing: 0.5px;
+  margin-top: 12px;
+  margin-left: 24px;
+}
+.topics-div {
+  display: flex;
+  flex-direction: row;
 }

@@ -97,6 +97,74 @@ export default function Home() {
       <div className="whatContains-container">
         <h1 className="whatContains-title">MOTION TIME</h1>
         <h1 className="whatContains-subTitle">O QUE TÊM DENTRO?</h1>
+        <div className="topics-div">
+          <div className="all-topics-container">
+            <div className="topic-list-area">
+              <h1 className="topic-indicator">01.</h1>
+              <div className="topic-area">
+                <h1 className="topic-title">300 TEXTOS ANIMADOS</h1>
+                <h1 className="topic-subTitle">
+                  300 Textos animados para você não perder tempo fazendo
+                  animação e nem quebrando a cabeça.
+                </h1>
+              </div>
+            </div>
+            <div className="topic-list-area">
+              <h1 className="topic-indicator">03.</h1>
+              <div className="topic-area">
+                <h1 className="topic-title">150 TRANSIÇÕES</h1>
+                <h1 className="topic-subTitle">
+                  Mais de 50 transições de diversas formas para você usar no seu
+                  vídeo, e não, você não vai nem perder tempo tirando o Chroma
+                  Key
+                </h1>
+              </div>
+            </div>
+            <div className="topic-list-area">
+              <h1 className="topic-indicator">05.</h1>
+              <div className="topic-area">
+                <h1 className="topic-title">15 LOWER THIRDS</h1>
+                <h1 className="topic-subTitle">
+                  15 tipos de lower thirds para deixar os seus vídeos mais
+                  estilosos.
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div className="all-topics-container">
+            <div className="topic-list-area">
+              <h1 className="topic-indicator">02.</h1>
+              <div className="topic-area">
+                <h1 className="topic-title">+600 EFEITOS SONOROS</h1>
+                <h1 className="topic-subTitle">
+                  Mais de 50 transições de diversas formas para você usar no seu
+                  vídeo, e não, você não vai nem perder tempo tirando o Chroma
+                  Key
+                </h1>
+              </div>
+            </div>
+            <div className="topic-list-area">
+              <h1 className="topic-indicator">04.</h1>
+              <div className="topic-area">
+                <h1 className="topic-title">+70 EMOJIS 3D ANIMADOS</h1>
+                <h1 className="topic-subTitle">
+                  70 Emojis animados para você expressar as suas reações no
+                  vídeo.
+                </h1>
+              </div>
+            </div>
+            <div className="topic-list-area">
+              <h1 className="topic-indicator">06.</h1>
+              <div className="topic-area">
+                <h1 className="topic-title">*BÔNUS* DIVERSOS ELEMENTOS</h1>
+                <h1 className="topic-subTitle">
+                  Sim, ainda vem um bônus de elementos para você dar aqueles
+                  efeitos especiais no seus vídeos.
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
