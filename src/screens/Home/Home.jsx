@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <div className="topic-list-area">
-              <h1 className="topic-indicator">03.</h1>
+              <h1 className="topic-indicator">02.</h1>
               <div className="topic-area">
                 <h1 className="topic-title">150 TRANSIÇÕES</h1>
                 <h1 className="topic-subTitle">
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
             </div>
             <div className="topic-list-area">
-              <h1 className="topic-indicator">05.</h1>
+              <h1 className="topic-indicator">03.</h1>
               <div className="topic-area">
                 <h1 className="topic-title">15 LOWER THIRDS</h1>
                 <h1 className="topic-subTitle">
@@ -133,7 +133,7 @@ export default function Home() {
           </div>
           <div className="all-topics-container">
             <div className="topic-list-area">
-              <h1 className="topic-indicator">02.</h1>
+              <h1 className="topic-indicator">04.</h1>
               <div className="topic-area">
                 <h1 className="topic-title">+600 EFEITOS SONOROS</h1>
                 <h1 className="topic-subTitle">
@@ -144,7 +144,7 @@ export default function Home() {
               </div>
             </div>
             <div className="topic-list-area">
-              <h1 className="topic-indicator">04.</h1>
+              <h1 className="topic-indicator">05.</h1>
               <div className="topic-area">
                 <h1 className="topic-title">+70 EMOJIS 3D ANIMADOS</h1>
                 <h1 className="topic-subTitle">
