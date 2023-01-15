@@ -180,6 +180,8 @@ export default function Home() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={184}
+                  height={184}
+                  className="howHelp-svg"
                   x="0px"
                   y="0px"
                   viewBox="0 0 1000 1000"
@@ -206,6 +208,7 @@ export default function Home() {
                   xmlns="http://www.w3.org/2000/svg"
                   width={184}
                   height={184}
+                  className="howHelp-svg"
                   viewBox="0 0 119.000000 119.000000"
                   fill="#293629"
                 >
@@ -237,6 +240,7 @@ export default function Home() {
                   fill="#293629"
                   height={184}
                   width={184}
+                  className="howHelp-svg"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 489.9 489.9"
                   xmlSpace="preserve"

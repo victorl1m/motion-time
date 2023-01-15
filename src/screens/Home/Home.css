@@ -433,7 +433,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 400px;
+  width: 320px;
   justify-content: center;
   align-items: center;
 }
@@ -605,6 +605,7 @@
   .infoAbout-container {
     width: 100%;
     height: 450px;
+    padding: 12px;
     margin-top: 60px;
   }
   .infoAbout-top {
@@ -726,6 +727,9 @@
   }
   .howHelp-text {
     font-size: 1rem;
+  }
+  .howHelp-svg {
+    width: 70%;
   }
   .bg-elements {
     display: none;
