@@ -254,6 +254,28 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="pricing">
+        <h1 className="title">TUDO ISSO POR APENAS</h1>
+        <div className="pricing-box">
+          <h1 className="pricing-from">DE</h1>
+          <h1 className="price-cut">R$ 179.90</h1>
+        </div>
+        <div className="pricing-updated">
+          <h1 className="pricing-from">POR APENAS</h1>
+          <div className="conditions-box">
+            <h1 className="condition-text">12X DE</h1>
+            <h1 className="price-updated">R$ 4,90</h1>
+          </div>
+          <h1 className="pricing-from">OU R$58,80 À VISTA</h1>
+          <p className="warning-text">
+            *PROMOÇÃO LIMITADA*
+            <br />
+            *ACESSO IMEDIATO*
+            <br />
+            *GARANTIA DE 7 DIAS*
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
