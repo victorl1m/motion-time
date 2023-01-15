@@ -136,6 +136,7 @@
 .seeWorking-container {
   display: flex;
   align-items: center;
+  width: 100%;
   margin-top: 328px;
   flex-direction: column;
   gap: 128px;
@@ -301,7 +302,7 @@
   height: 150px;
   width: 600px;
   padding: 12px;
-  margin: 48px;
+  margin: 24px;
   align-items: center;
   border: 2px solid transparent;
   border-radius: 25px;
