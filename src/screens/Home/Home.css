@@ -464,16 +464,20 @@
     margin-right: 0px;
   }
   .boxImage2 {
-    width: 100px;
+    width: 180px;
   }
   .publicArea-container {
     gap: 0;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #1e1e1e;
+    border-radius: 35px;
+    padding: 36px;
   }
   .seeWorking-container {
-    margin-top: 120px;
+    margin-top: 0px;
     gap: 30px;
   }
   .seeWorking-video {
