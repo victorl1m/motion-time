@@ -55,7 +55,7 @@
 }
 .infoArea-text {
   display: flex;
-  width: 1200px;
+  width: 100%;
   gap: 2px;
   line-height: 1.3;
   flex-direction: column;
@@ -116,6 +116,7 @@
   display: flex;
   align-items: center;
   margin-top: 328px;
+  width: 100%;
   flex-direction: row;
   gap: 128px;
   z-index: 0;
@@ -438,6 +439,34 @@
     margin-right: 0px;
     text-align: center;
   }
+  .huh-text {
+    font-size: 0.6rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .huh-subText {
+    font-size: 0.6rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    letter-spacing: normal;
+  }
+  .hahah-text {
+    font-size: 2.2rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .boxImage2 {
+    width: 100px;
+  }
+  .publicArea-container {
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
   .infoTitle {
     font-size: 2rem;
     margin-top: 0px;
@@ -525,5 +554,14 @@
   }
   .howHelp-text {
     font-size: 0.8rem;
+  }
+  .bg-elements {
+    display: none;
+  }
+  .bg-elements2 {
+    display: none;
+  }
+  .bg-elements3 {
+    display: none;
   }
 }
