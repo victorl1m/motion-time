@@ -115,6 +115,7 @@
 .publicArea-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 328px;
   width: 100%;
   flex-direction: row;
@@ -231,12 +232,18 @@
   width: 99.84%;
   height: 900px;
   display: flex;
-  gap: 48px;
+  gap: 36px;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   z-index: 1;
+}
+.boxAbout {
+  position: relative;
+  top: 36px;
+  width: 380px;
+  background-color: rgba(24, 129, 190, 0);
 }
 .infoAbout-top {
   margin-top: 128px;
@@ -251,12 +258,6 @@
   font-weight: var(--black-weight);
   line-height: 1.1;
   text-align: center;
-}
-.boxAbout {
-  position: relative;
-  top: 36px;
-  width: 380px;
-  background-color: rgba(24, 129, 190, 0);
 }
 .whatContains-container {
   width: 99.84%;
@@ -439,6 +440,10 @@
     margin-right: 0px;
     text-align: center;
   }
+  .boxAbout {
+    top: 0px;
+    z-index: 0;
+  }
   .huh-text {
     font-size: 0.6rem;
     margin-top: 0px;
@@ -467,6 +472,64 @@
     align-items: center;
     margin-top: 60px;
   }
+  .seeWorking-container {
+    margin-top: 120px;
+    gap: 30px;
+  }
+  .seeWorking-video {
+    width: 100%;
+    height: 250px;
+  }
+  .seeWorking-title {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .infoAbout-container {
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+  }
+  .infoAboutTitle {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .infoAboutSubtitle {
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .boxAbout {
+    width: 180px;
+    z-index: 0;
+  }
+  .whatContains-container {
+    z-index: 1;
+    height: 1200px;
+    gap: 0;
+  }
+  .whatContains-title {
+    font-size: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+  .whatContains-subTitle {
+    font-size: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 18px;
+  }
   .infoTitle {
     font-size: 2rem;
     margin-top: 0px;
@@ -481,41 +544,20 @@
     margin-right: 0px;
     text-align: center;
   }
-  .infoAbout-top {
-    margin-top: 0px;
-  }
   .infoAbout-p {
-    font-size: 1.4rem;
-  }
-  .boxAbout {
-    width: 100%;
-  }
-  .whatContains-container {
-    height: 100%;
-    margin-top: 240px;
-  }
-  .whatContains-title {
-    font-size: 3.5rem;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .whatContains-subTitle {
-    font-size: 3.5rem;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    font-size: 1rem;
   }
   .topic-list-area {
     width: 100%;
     margin: 0px;
+    gap: 2px;
   }
   .topic-area {
     margin-left: 0px;
   }
   .topic-title {
     font-size: 1.2rem;
-    margin-left: 0px;
+    margin-left: 12px;
   }
   .topic-indicator {
     font-size: 3rem;
@@ -523,12 +565,13 @@
   .topic-subTitle {
     font-size: 0.8rem;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 12px;
   }
   .topics-div {
     flex-direction: column;
   }
   .whatContains-button {
+    margin: 12px;
     font-size: 1.2rem;
     padding: 8px;
   }
